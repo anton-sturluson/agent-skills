@@ -1,6 +1,6 @@
 # Agent Skills
 
-Private source repository for Charlie Buffet's custom agent skills.
+Source repository for Charlie Buffet's custom agent skills.
 
 ## Layout
 
