@@ -8,6 +8,8 @@ Private source repository for Charlie Buffet's custom agent skills.
 - `skills/shared/` — shared operational skills from `~/.openclaw/skills/`
 - `skills/agents/` — agent-specific skills from `~/.agents/skills/`
 
+Shared aliases for `grill-me` and `write-a-skill` point to their canonical copies in `skills/agents/`.
+
 System and plugin skills installed under `/opt/homebrew/` or managed by Codex are intentionally excluded.
 
 ## Current workflow
