@@ -67,18 +67,9 @@ Reread `references/checklist.md` against the draft. Mark each item complete, ina
 
 Read and follow `references/audit.md`.
 
-### 8. Render and inspect
+### 8. Format, render, and inspect
 
-Before delivery:
-
-- confirm headings are hierarchical and unique
-- confirm every table has units and fits the page
-- confirm time-series columns run oldest to newest
-- confirm links and local citations resolve
-- confirm no placeholders, broken characters, or raw extraction notes remain
-- run `md2pdf <understanding.md> -o <understanding.pdf>`
-- inspect the PDF for clipped tables, awkward page breaks, orphaned headings, tiny text, and missing content
-- fix rendering defects and regenerate once
+Apply the shared `format-report` skill and render the PDF alongside the Markdown. Its structural, table, rendering, and visual-inspection rules are authoritative. Preserve this skill's report-specific acceptance test below.
 
 ## Outputs
 

@@ -108,6 +108,10 @@ Optional deeper work: `company-universe-by-category.md` and financial batches, b
 - `scripts/analyze_pairs.py` — compute pair summaries, misses by category, and top missed companies.
 - `scripts/plot_category_mix.py` — generate category/concentration charts.
 
+## Final formatting
+
+Before delivering any reader-facing Markdown report, apply the shared `format-report` skill. Its structural and table rules are authoritative; preserve the ETF-specific templates and output schemas. Render PDF or HTML when requested.
+
 ## Judgment posture
 
 Numbers and charts are inputs to judgment, not the answer. Always distinguish:

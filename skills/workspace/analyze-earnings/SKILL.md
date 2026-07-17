@@ -70,4 +70,4 @@ Critical gaps must be fixed. Analytical gaps should be fixed unless waived with 
 | Audit | `{company}/audits/earnings-audit-Q{N}-Y{YYYY}.md` |
 | Footnotes | `{company}/data/structured/footnotes-Q{N}-Y{YYYY}.md` |
 
-After final audit, run `md2pdf <analysis.md> -o <analysis.pdf>` and save alongside.
+After final audit, apply the shared `format-report` skill and render the PDF alongside. Its structural, table, rendering, and visual-inspection rules are authoritative.

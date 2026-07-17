@@ -70,9 +70,9 @@ Write the sections in order per the checklist and this file's writing rules. Sav
 
 Spawn an audit subagent (`gpt-5.5`, high reasoning) with the prompt at `{baseDir}/references/audit-prompt.md`. Give it read access to the one-pager and the company's `data/` sources. Fix every defect it returns; re-audit if numbers changed.
 
-### 7. Render
+### 7. Format, render, and inspect
 
-`md2pdf <one-pager.md> -o <one-pager.pdf>`. Eyeball it against the reader test.
+Apply the shared `format-report` skill and render the PDF alongside the Markdown. Its structural, table, rendering, and visual-inspection rules are authoritative. Keep the one-page reader test as the report-specific acceptance criterion.
 
 ## Output paths
 

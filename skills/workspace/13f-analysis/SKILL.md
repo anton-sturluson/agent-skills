@@ -35,6 +35,10 @@ Include:
 - Major increases/decreases
 - Overall Fund Assessment with categorized trade themes
 
+## Final formatting
+
+Before saving or syncing the reader-facing report, apply the shared `format-report` skill. Its structural and table rules are authoritative; preserve the 13-F-specific report sections and output destinations below. Render PDF or HTML only when requested.
+
 ## Output
 
 All output paths in this skill are relative to Charlie’s default durable storage root: `/Users/charlie-buffet/Documents/project-minerva/hard-disk`.
