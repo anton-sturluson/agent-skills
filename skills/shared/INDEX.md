@@ -8,6 +8,7 @@
 | `clawhub` | Bundled skill override kept installed but hidden from the model prompt. |
 | `gemini` | Bundled skill override kept installed but hidden from the model prompt. |
 | `git-worktree` | Shared git worktree workflow skill. |
+| `grill-me` | Shared plan and design stress-testing skill. |
 | `healthcheck` | Bundled skill override kept installed but hidden from the model prompt. |
 | `learn` | Shared knowledge-ingestion skill; re-enabled as model-visible on 2026-04-07. |
 | `openai-whisper` | Bundled skill override kept installed but hidden from the model prompt. |
@@ -16,6 +17,7 @@
 | `update-workspace-markdown` | Shared markdown-maintenance skill; model-visible. |
 | `use-printer` | Shared local printing workflow for CUPS/Brother, duplex checks, and HTML-to-PDF printing. |
 | `video-frames` | Bundled skill override kept installed but hidden from the model prompt. |
+| `write-a-skill` | Shared workflow for creating reusable agent skills. |
 | `xlsx` | Shared spreadsheet skill; kept installed but hidden from the model prompt. |
 
 ## Notes
