@@ -57,6 +57,9 @@ Use this skill to turn “which ETF(s) best express this thesis?” into a holdi
    - Use a core/satellite frame when appropriate.
    - State the recommended allocation, why it fits the thesis, what it underweights, when it would change, and which ETFs to avoid or treat only as context.
 
+11. **Format reader-facing reports**
+   - Apply the shared `format-report` skill before delivery. Its structural and table rules are authoritative; preserve the ETF-specific templates and output schemas. Render PDF or HTML when requested.
+
 ## Validation gates
 
 Do not present conclusions until these are handled or explicitly marked provisional:
@@ -107,10 +110,6 @@ Optional deeper work: `company-universe-by-category.md` and financial batches, b
 - `scripts/consolidate_categories.py` — aggregate classified holdings into category summaries.
 - `scripts/analyze_pairs.py` — compute pair summaries, misses by category, and top missed companies.
 - `scripts/plot_category_mix.py` — generate category/concentration charts.
-
-## Final formatting
-
-Before delivering any reader-facing Markdown report, apply the shared `format-report` skill. Its structural and table rules are authoritative; preserve the ETF-specific templates and output schemas. Render PDF or HTML when requested.
 
 ## Judgment posture
 

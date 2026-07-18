@@ -48,11 +48,9 @@ For investor presentations with charts/images: use `image` tool to extract all m
 
 ### 5. Write the analysis
 
-Follow the checklist section-by-section. The checklist defines both the output structure and the writing rules.
-
 For large analyses (>50KB expected), write in sections and append. Do not attempt single-call writes.
 
-Follow the checklist section-by-section, starting from Section 0 (header and quarter in brief).
+Follow the checklist section-by-section, starting from Section 0 (header and quarter in brief). The checklist defines both the output structure and the writing rules.
 
 Save to: `analysis/earnings/Q{N}-Y{YYYY}.md`
 
@@ -60,7 +58,7 @@ Save to: `analysis/earnings/Q{N}-Y{YYYY}.md`
 
 Spawn audit subagent (model: `openai/gpt-5.5`, reasoning: `high`) using `{baseDir}/references/audit-prompt.md` as the prompt. Pass the analysis path, checklist path, and company folder.
 
-Critical gaps must be fixed. Analytical gaps should be fixed unless waived with reason (note in appendix). Audit up to 2 rounds. Verify markdown links resolve correctly (`analysis/earnings/` → `../../data/...`).
+Critical gaps must be fixed. Analytical gaps should be fixed unless waived with reason (note in appendix). Audit up to 2 rounds.
 
 ## Output paths
 

@@ -22,7 +22,7 @@ The checklist (`references/one-pager-checklist.md`) sets **what content** each s
 
 ## Writing rules
 
-- **Instructions are not content.** Nothing in the checklist or this file should appear on the page as text. Never echo build notes as captions (no "columns oldest → newest", no "\$M unless noted" — put units in the column header). Never reuse a prescribed-sounding sentence verbatim across briefs; phrase every judgment-free observation freshly for the company.
+- **Write for the company.** Never reuse a prescribed-sounding sentence verbatim across briefs; phrase every judgment-free observation freshly.
 - **Prose, not bullets.** Write sections 1–2 as a few short paragraphs, each opening with a bold topic phrase, then plain sentences. One idea per paragraph, white space between them.
 - **Depth is clarity, not accumulation.** Explain how the business is structured and competes — the few facts that matter and what they mean. Choose the facts that carry the structure; leave the rest.
 - **No judgment.** Report level, direction, and disclosed facts; do not editorialize into good/bad, cheap/expensive, strong/weak.
@@ -30,7 +30,6 @@ The checklist (`references/one-pager-checklist.md`) sets **what content** each s
 - **Citations at sentence-end**, one clean reference — not the same source repeated mid-clause.
 - **GAAP** unless a figure is explicitly otherwise.
 - **Appendix holds the peripheral** — calculation methods, adjustments, assumptions, sources. Sections 1–4 stay clean.
-- **Time-series ordered oldest → newest.**
 
 ## Workflow
 
