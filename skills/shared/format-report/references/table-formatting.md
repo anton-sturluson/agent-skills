@@ -36,6 +36,7 @@ Combine one size class with at most one profile unless a second profile clearly 
 - Escape literal currency dollar signs as `\$` so Pandoc does not parse text across table rows as inline math.
 - State scale and currency once: for example, `Revenue (\$m)` or `All figures in USD millions`.
 - Use one precision convention within a table.
+- Left-align labels and align comparable numeric values consistently.
 - Distinguish zero, unavailable, and not meaningful; do not use `0` for missing data.
 - Keep source notes outside the table unless row-level sourcing is necessary.
 - Put the table near the paragraph that introduces it.
