@@ -22,7 +22,7 @@ The checklist (`references/one-pager-checklist.md`) sets **what content** each s
 
 ## Writing rules
 
-- **Instructions are not content.** Nothing in the checklist or this file should appear on the page as text. Never echo build notes as captions (no "columns oldest → newest", no "\$M unless noted" — put units in the column header). Never reuse a prescribed-sounding sentence verbatim across briefs; phrase every judgment-free observation freshly for the company.
+- **Write for the company.** Never reuse a prescribed-sounding sentence verbatim across briefs; phrase every judgment-free observation freshly.
 - **Prose, not bullets.** Write sections 1–2 as a few short paragraphs, each opening with a bold topic phrase, then plain sentences. One idea per paragraph, white space between them.
 - **Depth is clarity, not accumulation.** Explain how the business is structured and competes — the few facts that matter and what they mean. Choose the facts that carry the structure; leave the rest.
 - **No judgment.** Report level, direction, and disclosed facts; do not editorialize into good/bad, cheap/expensive, strong/weak.
@@ -30,7 +30,6 @@ The checklist (`references/one-pager-checklist.md`) sets **what content** each s
 - **Citations at sentence-end**, one clean reference — not the same source repeated mid-clause.
 - **GAAP** unless a figure is explicitly otherwise.
 - **Appendix holds the peripheral** — calculation methods, adjustments, assumptions, sources. Sections 1–4 stay clean.
-- **Time-series ordered oldest → newest.**
 
 ## Workflow
 
@@ -70,9 +69,9 @@ Write the sections in order per the checklist and this file's writing rules. Sav
 
 Spawn an audit subagent (`gpt-5.5`, high reasoning) with the prompt at `{baseDir}/references/audit-prompt.md`. Give it read access to the one-pager and the company's `data/` sources. Fix every defect it returns; re-audit if numbers changed.
 
-### 7. Render
+### 7. Format, render, and inspect
 
-`md2pdf <one-pager.md> -o <one-pager.pdf>`. Eyeball it against the reader test.
+Apply the shared `format-report` skill and render the PDF alongside the Markdown. Its structural, table, rendering, and visual-inspection rules are authoritative. Keep the one-page reader test as the report-specific acceptance criterion.
 
 ## Output paths
 

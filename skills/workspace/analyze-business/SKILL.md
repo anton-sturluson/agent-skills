@@ -89,4 +89,4 @@ Acceptance gates:
 - Load-bearing claims have inline citations
 - Stock pitch prepended at the top
 - Plan file was written before analysis began
-- After the Markdown deep dive is fully written, run `md2html <deep-dive.md> -o <deep-dive.html>` and save the HTML next to it
+- After the Markdown deep dive is fully written, apply the shared `format-report` skill and render the HTML next to it. Its structural, table, rendering, and visual-inspection rules are authoritative.

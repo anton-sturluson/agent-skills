@@ -4,6 +4,7 @@
 |---|---|
 | `browser` | Shared browser automation skill; canonical copy now uses the newer browser-v2 wording. |
 | `coding-agent` | Shared coding-agent skill for Codex & Gemini CLI delegation. Moved from node_modules 2026-04-09. |
+| `format-report` | Shared Markdown report formatting, table styling, rendering, and visual-inspection workflow. |
 | `earnings-transcript` | Fetch earnings call transcripts from free web sources (Motley Fool, company IR, MarketScreener). Added 2026-04-18. |
 | `clawhub` | Bundled skill override kept installed but hidden from the model prompt. |
 | `gemini` | Bundled skill override kept installed but hidden from the model prompt. |

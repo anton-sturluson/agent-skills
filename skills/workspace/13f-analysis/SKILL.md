@@ -25,6 +25,7 @@ Analyze SEC 13-F filings to produce institutional-grade portfolio analysis repor
 3. **Analyze changes**: Categorize new positions, exits, increases, decreases
 4. **Enrich with context**: Use web search for fund manager quotes, thesis context
 5. **Generate report**: Follow the report format below.
+6. **Format report**: Before saving or syncing the reader-facing report, apply the shared `format-report` skill. Its structural and table rules are authoritative; preserve the 13-F-specific report sections and output destinations below. Render PDF or HTML only when requested.
 
 ## Report Format
 Include:
